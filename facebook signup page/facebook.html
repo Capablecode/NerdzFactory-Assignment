@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" text="text/css" href="signup.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Facebook</h1>
+
+    <div class="form-container">
+      <div class="account_create_div">
+        <h2><b>Create a new account</b></h2>
+        <span>It's quick and easy</span>
+      </div>
+
+      <div><hr class="ash-rule" /></div>
+
+      <form>
+        <div class="form__input">
+          <input type="text" placeholder="First name" />
+          <input type="text" placeholder="Surname" />
+        </div>
+
+        <div class="dob">
+          <div class="dob__text">Date of birth <span>?</span></div>
+          <div class="dob__div">
+            <label for="day">
+              <select name="day" id="day">
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+              </select>
+            </label>
+            <label for="month">
+              <select name="month" id="month">
+                <option value="Oct">Oct</option>
+                <option value="Nov">Nov</option>
+                <option value="Dec">Dec</option>
+              </select>
+            </label>
+            <label for="year">
+              <select name="year" id="year">
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="gender">
+          <div class="gender__text">Gender <span>?</span></div>
+          <div class="gender__div">
+            <label for="female"
+              >Female
+              <input type="radio" id="female" class="radio" name="female" />
+            </label>
+
+            <label for="Male"
+              >Male
+              <input type="radio" id="male" name="male" />
+            </label>
+
+            <label for="Custom"
+              >custom
+              <input type="radio" id="custom" name="custom" />
+            </label>
+          </div>
+        </div>
+
+        <div class="full_width_input">
+          <input
+            type="text"
+            id="mobile number"
+            name="mobile"
+            placeholder="mobile number or email address"
+          />
+        </div>
+        <div class="full_width_input break">
+          <input
+            type="text"
+            id="new password"
+            name="new password"
+            placeholder="New Password"
+          />
+        </div>
+        <p class="last_text_1">
+          People who use our service may have uploaded your contact information
+          to Facebook. <a href="#">Learn more.</a>
+        </p>
+        <p class="last_text_2">
+          By clicking Sign Up, you agree to our
+          <a href="#">Terms, Privacy Policy and Cookies Policy.</a> You may
+          receive SMS notifications from us and can opt out at any time.
+        </p>
+        <div class="sign-up-btn">
+          <a href="#">Sign Up</a>
+        </div>
+        <p class="already_have_account">
+          <a href="#">Already have an account?</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
