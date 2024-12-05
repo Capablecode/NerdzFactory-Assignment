@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+}
+button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #3e8e41;
+}
+.fact {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
