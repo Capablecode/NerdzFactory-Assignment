@@ -85,11 +85,11 @@ const game = () => {
     movesLeft.style.display = "none";
     if (playerScore > computerScore) {
       result.style.fontSize = "2rem";
-      result.innerText = "You Won The Game";
+      result.innerText = "You Won The Game🎉🎉 ";
       result.style.color = "#308D46";
     } else if (playerScore < computerScore) {
       result.style.fontSize = "2rem";
-      result.innerText = "You Lost The Game";
+      result.innerText = "You Lost The Game 🙃😕😔";
       result.style.color = "red";
     } else {
       result.style.fontSize = "2rem";
